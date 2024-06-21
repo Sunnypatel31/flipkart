@@ -55,7 +55,8 @@ function Home()
                 <MDBCardText>
                   {item.description.slice(0,200)}
                 </MDBCardText>
-                <MDBBtn onClick={()=>handleclick(item.id)}>View Details {item.id}</MDBBtn>
+                <MDBBtn onClick={()=>handleclick(item.id)}>View Details {item.id}</MDBBtn>&nbsp;&nbsp;
+                <MDBBtn>Add to Cart</MDBBtn>
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
